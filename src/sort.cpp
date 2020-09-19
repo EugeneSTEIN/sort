@@ -191,8 +191,44 @@ void quickSort(int *arr, int n)
 
 
 
+static void _heapAdjust(int *arr, int i, int n)
+{
+	int temp = arr[i];
+	for(int k = i*2+1; k < n; k = 2*k+1)
+	{
+		if(k+1 < n && arr[k] < arr[k+1])
+		{
+			++k;
+		}
+		if(arr[k] > temp)
+		{
+			arr[i] = arr[k];
+			i = k;
+		}
+		else
+		{
+			break;
+		}
+	}
+	arr[i] = temp;
+
+}
+
+
+
 void heapSort(int *arr, int n)
 {
+	// init
+	for(int i = n/2-1; i >= 0; --i)
+	{
+		_heapAdjust(arr, i, n);
+	}
 	
+	// swap
+	for(int i = n-1; i > 0; --i)
+	{
+		swap(arr, 0, i);
+		_heapAdjust(arr, 0, i);
+	}
 	std::cout << "heapSort done!\n";
 }

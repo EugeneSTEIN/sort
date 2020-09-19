@@ -13,7 +13,8 @@ int main(int argc, const char * argv[])
 	//bubbleSort(arr, n);
 	//insertSort(arr, n);
 	//mergeSort(arr, n);
-	quickSort(arr, n);
+	//quickSort(arr, n);
+	heapSort(arr, n);
 	coutArray(arr, n);
 
 
