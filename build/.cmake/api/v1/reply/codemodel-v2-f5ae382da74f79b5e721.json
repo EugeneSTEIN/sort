@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "sort_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sort_test-Debug-9208e36ba6a308ad169b.json",
+					"jsonFile" : "target-sort_test-Debug-af43ddf203221c97a5cc.json",
 					"name" : "sort_test",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/dcx/vsp/sort/build",
-		"source" : "C:/dcx/vsp/sort"
+		"build" : "D:/vsp/sort/build",
+		"source" : "D:/vsp/sort"
 	},
 	"version" : 
 	{

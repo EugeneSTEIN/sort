@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dcx/vsp/sort/main.cpp" "C:/dcx/vsp/sort/build/CMakeFiles/sort_test.dir/main.cpp.obj"
-  "C:/dcx/vsp/sort/src/sort.cpp" "C:/dcx/vsp/sort/build/CMakeFiles/sort_test.dir/src/sort.cpp.obj"
+  "D:/vsp/sort/main.cpp" "D:/vsp/sort/build/CMakeFiles/sort_test.dir/main.cpp.obj"
+  "D:/vsp/sort/src/sort.cpp" "D:/vsp/sort/build/CMakeFiles/sort_test.dir/src/sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

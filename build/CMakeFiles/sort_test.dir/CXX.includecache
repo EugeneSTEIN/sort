@@ -10,7 +10,7 @@
 iostream
 -
 
-C:/dcx/vsp/sort/main.cpp
+D:/vsp/sort/main.cpp
 stdio.h
 -
 stdlib.h
@@ -18,9 +18,9 @@ stdlib.h
 iostream
 -
 sort.h
-C:/dcx/vsp/sort/sort.h
+D:/vsp/sort/sort.h
 
-C:/dcx/vsp/sort/src/sort.cpp
+D:/vsp/sort/src/sort.cpp
 sort.h
-C:/dcx/vsp/sort/src/sort.h
+D:/vsp/sort/src/sort.h
 
