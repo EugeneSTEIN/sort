@@ -210,7 +210,7 @@ static void _heapAdjust(int *arr, int i, int n)
 			break;
 		}
 	}
-	//arr[i] = temp;
+	arr[i] = temp;
 
 }
 
