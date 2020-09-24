@@ -1,3 +1,0 @@
-D:/vsp/sort/build/CMakeFiles/sort_test.dir
-D:/vsp/sort/build/CMakeFiles/edit_cache.dir
-D:/vsp/sort/build/CMakeFiles/rebuild_cache.dir
