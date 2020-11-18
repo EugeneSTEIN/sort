@@ -16,4 +16,6 @@ void mergeSort(int *arr, int n);
 void quickSort(int *arr, int n);
 void heapSort(int *arr, int n);
 
+void qSort(int *arr, int n);
+
 #endif  //END_OF_CARTREE_H

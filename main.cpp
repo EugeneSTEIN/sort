@@ -14,7 +14,8 @@ int main(int argc, const char * argv[])
 	//insertSort(arr, n);
 	//mergeSort(arr, n);
 	//quickSort(arr, n);
-	heapSort(arr, n);
+	qSort(arr, n);
+	//heapSort(arr, n);
 	coutArray(arr, n);
 
 

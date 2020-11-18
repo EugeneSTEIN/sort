@@ -232,3 +232,44 @@ void heapSort(int *arr, int n)
 	}
 	std::cout << "heapSort done!\n";
 }
+
+
+
+static void _qSort(int *arr, int low, int high)
+{
+	if(low >= high)
+	{
+		return;
+	}
+
+	int start = low;
+	int end = high;
+	int key = (start+end)/2;
+	
+	while(start < end)
+	{
+		while(start < end && arr[end] > arr[key])
+		{
+			--end;
+		}
+		swap(arr, end, key);
+		key = end;
+
+		while(start < end && arr[start] <= arr[key])
+		{
+			++start;
+		}
+		swap(arr, start, key);
+		key = start;
+	}
+	arr[start] = arr[key];
+
+	_qSort(arr, low, start-1);
+	_qSort(arr, start+1, high);
+}
+
+void qSort(int *arr, int n)
+{
+	_qSort(arr, 0, n-1);
+	std::cout << "quickSort done!\n";
+}
