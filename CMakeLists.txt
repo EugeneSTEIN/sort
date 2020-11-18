@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.11)
 #cmake .. -G "MinGW Makefiles"
-#set(CMAKE_C_COMPILER "c:/envs/MinGW/bin/gcc.exe")
-#set(CMAKE_CXX_COMPILER "c:/envs/MinGW/bin/g++.exe")
+
 
 message(STATUS "CMAKE_SOURCE_DIR=" ${CMAKE_SOURCE_DIR})
 
